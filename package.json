@@ -1,0 +1,25 @@
+{
+  "name": "webb",
+  "version": "1.0.0",
+  "description": "web tools kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YooWaan/webb.git"
+  },
+  "keywords": [
+    "sitemap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YooWaan/webb/issues"
+  },
+  "homepage": "https://github.com/YooWaan/webb#readme",
+  "devDependencies": {
+    "vue": "^2.6.10"
+  }
+}
