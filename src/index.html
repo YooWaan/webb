@@ -4,6 +4,8 @@
     <meta charset="utf-8"/>
     <title><%= htmlWebpackPlugin.options.title %></title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+
     <script src="https://unpkg.com/marked@0.3.6"></script>
     <script src="https://unpkg.com/lodash@4.16.0"></script>
 
@@ -40,7 +42,11 @@ code {
 }
 </style>
   </head>
-  <body>
+  <body class="uk-background-muted">
     <main id="webb-app"></main>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
   </body>
 </html>

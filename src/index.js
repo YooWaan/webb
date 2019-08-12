@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import sitemap from './components/Sitemap.vue';
+import layout from './components/Layout.vue';
 
 new Vue({
   el: '#webb-app',
-  template:'<main id="webb-app"><sitemap/></main>',
-  components: {sitemap},
+  template: '<layout/>',
+  components: {layout}
 });
